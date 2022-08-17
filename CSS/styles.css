@@ -1,0 +1,47 @@
+body {
+    background-color: #fff;
+    color: #212121 ;
+}
+
+.logo {
+    color: #2196f3;
+}
+
+.logo-white {
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+.mail-tel {
+    color: #757575;   
+}
+
+.mail-tel:hover, 
+.mail-tel:focus {
+    color: #2196F3;
+}
+
+.heads-links {
+    color: #212121;
+}
+
+.heads-links:hover,
+.heads-links:focus {
+    color: #2196F3;
+}
+ 
+.section-hero-title {
+    color: #FFFFFF;
+}
+
+.section-title {
+    color: #212121;
+}
+
+/*основной цвет #212121 */
+/*вторичный цвет #757575 */
+/*белый #FFFFFF */
+/*цвет акцент #2196F3 */

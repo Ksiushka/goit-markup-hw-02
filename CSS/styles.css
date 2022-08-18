@@ -1,6 +1,19 @@
+:root {
+    --main-text-color:#212121;
+    --title-text-color:#212121;
+    --second-text-color:#757575;
+    --accent-color:#2196F3;
+    --hero-text-color:#FFFFFF
+}
+
+
 body {
     background-color: #fff;
     color: #212121 ;
+}
+
+.hide {
+    display: none;
 }
 
 .logo {
@@ -24,23 +37,41 @@ ul {
     color: #2196F3;
 }
 
-.heads-links {
+
+.heads-links a{
     color: #212121;
 }
 
-.heads-links:hover,
-.heads-links:focus {
+.heads-links a:hover,
+.heads-links a:focus {
     color: #2196F3;
 }
  
 .section-hero-title {
-    color: #FFFFFF;
+    color: var(--hero-text-color);
 }
 
-.section-title {
-    color: #212121;
+.section-title
+.features-list .title 
+.team-list .title {
+    color: var(--title-text-color);
 }
 
+p {
+    color: #757575;
+}
+
+.address {
+    color: var(--hero-text-color);
+}
+
+.mail-tel-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.button {
+    color: var(--hero-text-color);
+}
 /*основной цвет #212121 */
 /*вторичный цвет #757575 */
 /*белый #FFFFFF */

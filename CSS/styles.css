@@ -12,10 +12,6 @@ body {
     color: #212121 ;
 }
 
-.hide {
-    display: none;
-}
-
 .logo {
     color: #2196f3;
 }
@@ -28,12 +24,12 @@ ul {
     list-style: none;
 }
 
-.mail-tel {
+.mail-tel a{
     color: #757575;   
 }
 
-.mail-tel:hover, 
-.mail-tel:focus {
+.mail-tel a:hover, 
+.mail-tel a:focus {
     color: #2196F3;
 }
 
@@ -45,6 +41,10 @@ ul {
 .heads-links a:hover,
 .heads-links a:focus {
     color: #2196F3;
+}
+
+.heads-links a .current {
+    color: var(--accent-color);
 }
  
 .section-hero-title {
@@ -71,6 +71,8 @@ p {
 
 .button {
     color: var(--hero-text-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /*основной цвет #212121 */
 /*вторичный цвет #757575 */

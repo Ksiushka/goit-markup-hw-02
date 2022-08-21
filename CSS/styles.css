@@ -1,22 +1,21 @@
 :root {
-    --main-text-color:#212121;
-    --title-text-color:#212121;
-    --second-text-color:#757575;
-    --accent-color:#2196F3;
-    --hero-text-color:#FFFFFF
+    --main-text-color: #212121;
+    --second-text-color: #757575;
+    --accent-color: #2196F3;
+    --hero-text-color: #FFFFFF
 }
 
 
 body {
     background-color: #fff;
-    color: #212121 ;
+    color: #212121;
     font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em
-
+    letter-spacing: 0.03em;
 }
 
 .logo {
     color: #2196f3;
+    text-decoration: none;
 }
 
 .logo-white {
@@ -27,34 +26,38 @@ ul {
     list-style: none;
 }
 
-.mail-tel a{
-    color: #757575;   
+.mail-tel a {
+    color: #757575;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.5;
-     letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
 }
 
-.mail-tel a:hover, 
+.mail-tel a:hover,
 .mail-tel a:focus {
     color: #2196F3;
 }
 
 
-.heads-links a{
+.heads-links a {
     color: #212121;
-   
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
+    text-decoration: none;
 }
 
 .heads-links a:hover,
 .heads-links a:focus {
     color: #2196F3;
 }
- 
+
 .section-hero-title {
     color: var(--hero-text-color);
     font-weight: 900;
@@ -65,10 +68,11 @@ ul {
 }
 
 .section-title,
-.features-list .title, 
-.team-list .title, 
-.portfolio-list .title{
+.features-list .title,
+.team-list .title,
+.portfolio-list .title {
     color: var(--main-text-color);
+    text-decoration: none;
 }
 
 .section-title {
@@ -80,6 +84,7 @@ ul {
 
 p {
     color: #757575;
+    text-decoration: none;
 }
 
 .address {
@@ -100,12 +105,8 @@ p {
     background-color: #F5F4FA;
 }
 
-.filter button:hover {
-    color: var(--hero-text-color);
-    background-color: var(--accent-color);
-}
-
-.filter button:focus{
+.filter button:hover,
+.filter button:focus {
     color: var(--hero-text-color);
     background-color: var(--accent-color);
 }
@@ -121,10 +122,14 @@ p {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}    
+}
 
-nav>li .current {
-    columns: var(--accent-color);
+nav .current {
+    color: var(--accent-color);
+}
+
+.myclass {
+    background: red;
 }
 
 .mail-tel-footer:hover,
@@ -134,7 +139,7 @@ nav>li .current {
 
 nav>a {
     font-family: Raleway, sans-serif;
-   
+
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -151,6 +156,8 @@ nav>a {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
+
+    text-decoration: none;
 }
 
 .features-list p {
@@ -164,10 +171,12 @@ nav>a {
     text-align: center;
 }
 
-.address .mail-tel-footer{
+.address .mail-tel-footer {
     font-size: 14px;
     line-height: 1.7;
 }
+
+
 
 
 /*основной цвет #212121 */

@@ -10,6 +10,9 @@
 body {
     background-color: #fff;
     color: #212121 ;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em
+
 }
 
 .logo {
@@ -26,6 +29,10 @@ ul {
 
 .mail-tel a{
     color: #757575;   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+     letter-spacing: 0.02em;
 }
 
 .mail-tel a:hover, 
@@ -36,6 +43,11 @@ ul {
 
 .heads-links a{
     color: #212121;
+   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .heads-links a:hover,
@@ -45,6 +57,11 @@ ul {
  
 .section-hero-title {
     color: var(--hero-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em
 }
 
 .section-title,
@@ -52,6 +69,13 @@ ul {
 .team-list .title, 
 .portfolio-list .title{
     color: var(--main-text-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
 }
 
 p {
@@ -107,6 +131,45 @@ nav>li .current {
 .mail-tel-footer:focus {
     color: var(--accent-color);
 }
+
+nav>a {
+    font-family: Raleway, sans-serif;
+   
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.team-list .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center
+}
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.features-list p {
+    font-size: 14px;
+    line-height: 1.7
+}
+
+.team-list p {
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+}
+
+.address .mail-tel-footer{
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
 /*основной цвет #212121 */
 /*вторичный цвет #757575 */
 /*белый #FFFFFF */

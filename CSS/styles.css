@@ -68,11 +68,14 @@ ul {
 .section-title,
 .features-list .title,
 .team-list .title,
-.portfolio-list .title {
+.portfolio-list .title
+ {
 	color: var(--main-text-color);
 	text-decoration: none;
 }
-
+.portfolio-list a {
+    text-decoration: none;
+}
 .section-title {
 	font-weight: 700;
 	font-size: 36px;

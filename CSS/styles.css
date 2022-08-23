@@ -3,6 +3,7 @@
 	--second-text-color: #757575;
 	--accent-color: #2196f3;
 	--hero-text-color: #ffffff;
+	--accent-background-color: #2F303A;
 }
 
 body {
@@ -10,11 +11,16 @@ body {
 	color: #212121;
 	font-family: Roboto, sans-serif;
 	letter-spacing: 0.03em;
+	font-size: 14px;
 }
 
 .logo {
 	color: #2196f3;
 	text-decoration: none;
+}
+
+.logo-black {
+	color: #000000;
 }
 
 .logo-white {
@@ -29,7 +35,7 @@ ul {
 	color: #757575;
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 1.5;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 
 	text-decoration: none;
@@ -40,12 +46,16 @@ ul {
 	color: #2196f3;
 }
 
+.section-one {
+	background-color: var(--accent-background-color);
+}
+
 .heads-links a {
 	color: #212121;
 
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 1.5;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 
 	text-decoration: none;
@@ -63,19 +73,27 @@ ul {
 	line-height: 1.4;
 	text-align: center;
 	letter-spacing: 0.06em;
+	text-transform: uppercase;
 }
 
-.section-title,
-.features-list .title,
-.team-list .title,
-.portfolio-list .title
+.section-title ;
+.features-list .title ;
+.team-list .title ;
  {
 	color: var(--main-text-color);
 	text-decoration: none;
 }
 .portfolio-list a {
-    text-decoration: none;
+	text-decoration: none;
 }
+
+.portfolio-list .title {
+	color: var(--main-text-color);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+}
+
 .section-title {
 	font-weight: 700;
 	font-size: 36px;
@@ -83,27 +101,48 @@ ul {
 	text-align: center;
 }
 
+.section-team {
+	background-color: #F5F4FA;
+}
+
 p {
 	color: #757575;
 	text-decoration: none;
+	font-size: 14px;
+	line-height: 1.7;
 }
 
-.address {
-	color: var(--hero-text-color);
+.portfolio-list>p {
+	color: #757575;
+	font-size: 16px;
+	line-height: 1.9;
 }
 
-.mail-tel-footer {
-	color: rgba(255, 255, 255, 0.6);
+.button:hover,
+.button:focus {
+	color: #188CE8;
 }
 
 .button {
 	color: var(--hero-text-color);
 	background-color: var(--accent-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	width: 216px;
+	height: 50px;
+	left: 692px;
+	top: 430px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.9;
+	cursor: pointer;
 }
 
 .filter button {
 	background-color: #f5f4fa;
+	color: #212121;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
 }
 
 .filter button:hover,
@@ -129,13 +168,29 @@ nav .current {
 	color: var(--accent-color);
 }
 
-.myclass {
-	background: red;
+footer {
+	background-color: var(--accent-background-color);
 }
 
 .mail-tel-footer:hover,
 .mail-tel-footer:focus {
 	color: var(--accent-color);
+}
+
+.mail-tel-footer {
+	color: rgba(255, 255, 255, 0.6);
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 1.7;
+	font-style: normal;
+}
+
+.address {
+	color: var(--hero-text-color);
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 1.7;
+	font-style: normal;
 }
 
 nav > a {
@@ -172,10 +227,7 @@ nav > a {
 	text-align: center;
 }
 
-.address .mail-tel-footer {
-	font-size: 14px;
-	line-height: 1.7;
-}
+
 
 /*основной цвет #212121 */
 /*вторичный цвет #757575 */
